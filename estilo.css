@@ -1,0 +1,132 @@
+*{
+    margin: 3px;
+    padding:4px; 
+    text-align: center;
+    background-color: rgb(250, 231, 240);
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(197, 68, 156);
+}
+#publicacion1{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    text-align: center;
+
+}
+.cajita{
+    height: center;
+    width: 350px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(250, 231, 240);
+    flex-direction: column;
+    font-family:"Platypi", serif;
+    color: rgb(197, 68, 156);
+}
+.cajita2{
+    height: center;
+    width: 350px;
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(250, 231, 240);
+    flex-direction: column;
+    font-family:"Platypi", serif;
+    color: rgb(197, 68, 156);
+
+}
+.logo {
+    width: 85px;
+    height: 80px;
+    margin: 5px;
+}
+.cabecera1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    border:0;
+    padding:0;
+}
+hr{
+        width: 98%;
+        border: 0;
+        background-color: rgb(236, 192, 227);
+}
+.cabecera2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    border:0;
+    padding:0;
+}
+p{
+    width: 50%;
+}
+#Registrate{
+    border-radius:90px;
+    border:2px solid black;
+    margin:5;
+    color: rgb(197, 68, 156);
+}
+#carrito{
+    border-radius:90px;
+    color:rgb(0, 0, 0);
+    border:3px solid rgb(197, 68, 156);
+    margin: 4;
+}
+#frase1{
+    border-radius:90px;
+    color:rgb(133, 2, 2);
+    background-color: rgb(254, 151, 221);
+    border:5px solid rgb(254, 151, 221);
+    margin: 5;
+    box-shadow: 0 0 5px rgb(180, 119, 146);
+
+}
+#frase2{
+    border-radius:90px;
+    color:rgb(133, 2, 2);
+    background-color: rgb(254, 151, 221);
+    border:5px solid rgb(254, 151, 221);
+    margin: 5;
+    box-shadow: 0 0 5px rgb(180, 119, 146);
+}
+.menu2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    border:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif
+}
+.menu2 p{
+    font-size: 16px;
+}
+.pie p{
+    text-align: left;
+    color: rgb(197, 68, 156);
+}
+#pie{
+    display: flex;
+    justify-content:center;
+}
+.pie img{
+    position:sticky;
+    left:100%;
+}
